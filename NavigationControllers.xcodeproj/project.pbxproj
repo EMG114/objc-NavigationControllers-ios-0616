@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		078394D11D177041008BF037 /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 078394D01D177041008BF037 /* TeamMember.m */; };
+		078394D41D17708D008BF037 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078394D31D17708D008BF037 /* TeamViewController.m */; };
+		078394D71D1770B2008BF037 /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078394D61D1770B2008BF037 /* TeamDetailViewController.m */; };
 		44239E021950D50F008E9E68 /* NavigationControllersSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 44239E011950D50F008E9E68 /* NavigationControllersSpec.m */; };
 		44F38FE918B3F4650012314D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FE818B3F4650012314D /* Foundation.framework */; };
 		44F38FEB18B3F4650012314D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F38FEA18B3F4650012314D /* CoreGraphics.framework */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078394CF1D177041008BF037 /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamMember.h; path = ../TeamMember.h; sourceTree = "<group>"; };
+		078394D01D177041008BF037 /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamMember.m; path = ../TeamMember.m; sourceTree = "<group>"; };
+		078394D21D17708D008BF037 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		078394D31D17708D008BF037 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		078394D51D1770B2008BF037 /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
+		078394D61D1770B2008BF037 /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
 		10B9B3F904CE21FB0A5F4C8F /* Pods-NavigationControllersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationControllersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationControllersTests/Pods-NavigationControllersTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B110E9DA3FF433A96E2A505 /* libPods-NavigationControllersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NavigationControllersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44239E011950D50F008E9E68 /* NavigationControllersSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllersSpec.m; sourceTree = "<group>"; };
@@ -116,8 +125,14 @@
 		44F38FEE18B3F4650012314D /* NavigationControllers */ = {
 			isa = PBXGroup;
 			children = (
+				078394D21D17708D008BF037 /* TeamViewController.h */,
+				078394D31D17708D008BF037 /* TeamViewController.m */,
+				078394D51D1770B2008BF037 /* TeamDetailViewController.h */,
+				078394D61D1770B2008BF037 /* TeamDetailViewController.m */,
 				44F38FF718B3F4650012314D /* AppDelegate.h */,
 				44F38FF818B3F4650012314D /* AppDelegate.m */,
+				078394CF1D177041008BF037 /* TeamMember.h */,
+				078394D01D177041008BF037 /* TeamMember.m */,
 				44F38FFA18B3F4650012314D /* Main.storyboard */,
 				44F3900018B3F4650012314D /* Images.xcassets */,
 				44F38FEF18B3F4650012314D /* Supporting Files */,
@@ -295,8 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078394D71D1770B2008BF037 /* TeamDetailViewController.m in Sources */,
 				44F38FF918B3F4650012314D /* AppDelegate.m in Sources */,
+				078394D41D17708D008BF037 /* TeamViewController.m in Sources */,
 				44F38FF518B3F4650012314D /* main.m in Sources */,
+				078394D11D177041008BF037 /* TeamMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
